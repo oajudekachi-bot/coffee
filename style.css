@@ -178,7 +178,7 @@
         color: var(--coffee-accent);
         margin-top: 20px;
         margin-bottom: 60px;
-        /* display: flex; */
+        display: flex;
         align-items: center;
         gap: 10px;
     }
@@ -437,6 +437,7 @@
     
 
         nav ul {
+            
             display: none;
         }
 
@@ -447,5 +448,36 @@
         footer {
             padding-left: 25px;
         }
+
+        .hero {
+            height: 100%;
+        
+            align-items: center;
+            position: relative;
+        
+            padding-top: 80px;
+            padding-bottom: 50px;
+         }
+
+         .hero .container {
+            display: block;
+            
+            }
+
+        .hero-title {
+        font-size: 40px;
+        line-height: 1.1;
+        margin-bottom: 25px;
+        letter-spacing: 0.5px;
+        color: var(--text-light);
+        }
+
+        .hero-text{
+            font-size: 11px;
+
+         }
+
     }
+
+
 
